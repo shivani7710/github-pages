@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.card{
+    background: linear-gradient(0.75turn,rgb(82, 82, 213),rgb(107, 174, 237),rgb(85, 197, 228));
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    height: 500px
+    
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp{
+    font-size: 40px;
+}
+
+.text input{
+    outline: 0;
+    padding: 10px 25px;
+    height: 60px;
+    margin-bottom: 389px;
+    border-radius: 30px;
+    border: none;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.text button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 384px;
+} 
+
+.weather img{
+    width: 100px;
+    height: 100px;
+    transform: translateY(-370px);
+}
+
+.weather h1, h2{
+    transform: translateY(-350px);
+}
+
+.weather-forcast {
+    transform: translateY(-325px);
+    
+}
+
+.weather-forcast p {
+    font-size: 20px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1{
+    width: 70px;
+}
+
+.humidity, .wind{
+    font-size: 25px;
+    padding: 5px 0 2px 0;
+}
+
+
+
+
+
